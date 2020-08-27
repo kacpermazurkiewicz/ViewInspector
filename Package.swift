@@ -10,7 +10,7 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "ViewInspector", targets: ["ViewInspector"]),
+            name: "ViewInspector", type: .dynamic, targets: ["ViewInspector"]),
     ],
     targets: [
         .target(
